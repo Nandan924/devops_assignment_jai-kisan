@@ -52,5 +52,3 @@ resource "aws_instance" "ec2_instance" {
     }
     user_data = file("userdata.sh")
 }
-
-
